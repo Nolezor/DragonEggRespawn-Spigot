@@ -20,7 +20,7 @@ Alias: checkrem
 /checktimesrespawned
 Alias: checkres
 
-### Additional Features
+### Additional Features:
 - Persistent data: both the max eggs to respawn and the times the egg gets respawned are saved in the config.yml so restarts and reloads won't change the values
 - Custom fountain coordinates can be set in the config.yml (normally the fountain is located at (0, 0))
 
