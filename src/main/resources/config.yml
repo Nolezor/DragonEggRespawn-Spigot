@@ -1,0 +1,7 @@
+eggs:
+  remaining: 0
+  respawned: 0
+end_fountain:
+  custom_coords: false
+  x: 0
+  z: 0

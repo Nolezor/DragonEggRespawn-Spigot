@@ -1,0 +1,26 @@
+name: DragonEggRespawn-Spigot
+version: '${project.version}'
+main: me.nolezor.dragoneggrespawnspigot.DragonEggRespawn_Spigot
+api-version: 1.19
+authors: [Nolezor]
+description: Respawn the Dragon Egg multiple times (Configurable)
+website: github.com/Nolezor
+commands:
+  seteggsremaining:
+    description: Changes the remaining dragon eggs that will spawn
+    usage: /<command> add/set <number>
+    aliases:
+      - seteggs
+    permission: dragoneggrespawn.seteggs
+  checkeggsremaining:
+    description: "Checks how many more Eggs can still respawn"
+    usage: "/<command>"
+    aliases:
+      - checkrem
+    permission: "dragoneggrespawn.checkeggs"
+  checktimesrespawned:
+    description: "Checks how many times the Eggs respawned"
+    usage: "/<command>"
+    aliases:
+      - checkres
+    permission: "dragoneggrespawn.respawnedeggs"
